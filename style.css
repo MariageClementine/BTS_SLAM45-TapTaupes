@@ -1,0 +1,85 @@
+html{
+	margin:0;
+  padding:0;
+  background: url(../images/prairie1.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover;
+
+}
+
+div#taupe1{
+	position:absolute;
+	width:100;
+	height:100px;
+	margin-top:400px;
+	background-color: blue;
+}
+
+div#taupe2{
+	position:absolute;
+	width:50;
+	height:50px;
+	margin-top:300px;
+	background-color: blue;
+}
+
+div#taupe3{
+	position:absolute;
+	width:100;
+	height:100px;
+	margin-top:400px;
+	background-color: blue;
+}
+
+div#cachette1{
+	position:fixed;
+	width:100px;
+	height:100px;
+	margin-top:400px;
+	z-index:3;
+	background-color: red;
+}
+
+div#cachette2{
+	position:fixed;
+	width:50px;
+	height:50px;
+	margin-top:300px;
+	z-index:3;
+	background-color: red;
+}
+
+div#cachette3{
+	position:fixed;
+	width:100px;
+	height:100px;
+	margin-top:400px;
+	z-index:3;
+	background-color: red;
+}
+
+div#contenu1{
+	height:200px;
+	width:100px;
+	float:left;
+	margin : 100px;
+}
+
+div#contenu2{
+	height:100px;
+	width:50px;
+	float:left;
+	margin : 100px;
+}
+
+div#contenu3{
+	height:200px;
+	width:100px;
+	float:left;
+	margin : 100px;
+}
+
+
+
